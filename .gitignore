@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# Django migration files (optional — keep if you want versioned migrations)
+**/migrations/*.py
+**/migrations/*.pyc
+!*/migrations/__init__.py
+
+# SQLite database
+db.sqlite3
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Static and media files
+/staticfiles/
+/media/
+
+# dotenv
+.env
+*.env
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
